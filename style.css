@@ -9,6 +9,13 @@ body{
     background: rgb(70, 142, 236);
     font: normal 15pt arial;
 }
+
+   
+h1{
+    
+    padding: 0px;
+    text-align: center;
+}
 div{
     display: flex;
 }
