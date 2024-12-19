@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+
+body{
+    display: grid;
+    place-items: center;
+    border: 2px dotted black;
+    background: rgb(70, 142, 236);
+    font: normal 15pt arial;
+}
+div{
+    display: flex;
+}
+.slider{
+    position: relative;
+    width: 400px;
+    overflow: hidden;
+}
+.slides{
+    display: flex;
+    transition: transform 0.5s ease;
+    width: calc(400px*6);
+
+}
+.slides img {
+    width: 400px;
+    height: auto;
+}
+button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+
+}
+button.prev{
+    left: 0;
+}
+button.next{
+    right: 0;
+    
+}
