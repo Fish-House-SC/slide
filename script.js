@@ -5,7 +5,7 @@ const nextButton = document.querySelector('.next');
 let currentIndex = 0;
 
 // Total de imagens originais (sem contar as duplicadas)
-const totalImages = 3; 
+const totalImages = 4; 
 
 // Atualiza a posição das imagens
 function updateSlider(animated = true) {
