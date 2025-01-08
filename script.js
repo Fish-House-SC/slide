@@ -85,3 +85,16 @@ slides.addEventListener('touchend', () => {
 
 // Inicializa o carrossel
 updateSlider();
+
+
+const colors = ["#ff0000", "#00ff00", "#0000ff", "#ffff00", "#ff00ff"]; // Cores
+         currentIndex = 0;
+
+        function changeBackground() {
+            // Muda a cor de fundo
+            document.body.style.backgroundColor = colors[currentIndex];
+            currentIndex = (currentIndex + 1) % colors.length; // Próxima cor em loop
+        }
+
+        // Muda a cor a cada 2 segundos
+        setInterval(changeBackground, 1000);

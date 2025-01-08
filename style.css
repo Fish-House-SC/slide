@@ -6,10 +6,19 @@ body{
     display: grid;
     place-items: center;
     border: 2px dotted black;
-    background: rgb(70, 142, 236);
+    background: rgb(117, 236, 70);
     font: normal 15pt arial;
+    animation: changeColor 10.2s infinite;
 }
-
+/*
+    @keyframes changeColor{
+        0% { background-color: #16A8CF; } 
+        25% { background-color: #5590ff; } 
+        50% { background-color: #87faf4; } 
+        75% { background-color: #19fff4; } 
+        100% { background-color: #16A8CF; }  
+    }
+*/
    
 h1{
     
